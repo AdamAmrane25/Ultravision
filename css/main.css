@@ -82,6 +82,42 @@ h2 {
   background-color: #6236ffbd;
 }
 
+.button { 
+align-content: right;
+border: 2px solid #fcda00;
+padding: 15px;
+border-radius: 15px;
+font-weight: bold;
+color: #fcda00;
+text-decoration: none;
+float: right;
+ }
+
+
+ .button2 { 
+   align-content:right;
+    border: 2px solid #ff5100;
+    padding: 15px;
+    border-radius:15px;
+    font-weight: bold;
+    color: #ff5100;
+    text-decoration: none;
+    float: right;
+     }
+
+
+     .button3, .button4 {
+    align-content:right;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius:15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    float: left;
+     }
+
+
 .section-title {
 
   margin-top: 65px;
