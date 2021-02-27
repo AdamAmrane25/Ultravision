@@ -194,6 +194,11 @@ grid-template-columns: repeat(4, 1fr);
 grid-gap: 20px;
 }
 
+.game{
+  position:relative;
+  text-align:center;
+}
+
 .colonne1 {
 text-align: justify;
 margin-right: 32px;
