@@ -140,3 +140,50 @@ margin-top:64px;
         font-size: 40px;
         text-align: left;
    }
+
+
+.case {
+display: flex;
+text-align: justify;
+}
+
+.case2 {
+display: flex;
+justify-content: space-around;
+margin-top: 65px;
+text-align: justify;
+margin-bottom: 65px;
+align-items: flex-start;
+}
+
+.colonne2 {
+width: 487px;
+height: 471px;
+mix-blend-mode: darken;
+}
+
+.colonne3 {
+width: 378px;
+height: 486px;
+mix-blend-mode: darken;
+}
+
+.colonne4 {
+width: 745px;
+height: 576px;
+mix-blend-mode: darken;
+}
+
+.colonne5 {
+width: 745px;
+height: 576px;
+mix-blend-mode: darken;
+}
+
+.colonne6 {
+width: 745px;
+height: 576px;
+mix-blend-mode: darken;
+}
+
+
