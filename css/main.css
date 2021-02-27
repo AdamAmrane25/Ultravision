@@ -188,6 +188,11 @@ background: linear-gradient(red,transparent)left repeat;
         color: white;
       }
 
+.grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 20px;
+}
 
 .colonne1 {
 text-align: justify;
@@ -250,5 +255,4 @@ align-items: center;
 display: flex;
 flex-basis: 0;
 flex-grow: 1;
-
 
