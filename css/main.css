@@ -270,16 +270,37 @@ opacity: 1;
 transform: translateY(5px);
 }
 
+.form{
+display: flex;
+ustify-content: space-around;
+align-items: stretch;
+text-align: justify;
+color: white;
+padding-bottom: 597px;
+border-radius: 10px;
+}
+
 .colonneformulaire1{
 margin-right: 64px;
 margin-left: 248px;
 }
 
+.colonneformulaire2{
+  margin-right: auto;
+}
+
 .form-row {
-  flex-basis: 35%;
-  display: flex;
+  padding-left: 8px;
+  padding-top: 0;
+  padding-right: 0;
   flex-direction: column;
-  padding-bottom: 12px;
+  padding-bottom: 28px;
+}
+
+#message{
+width: 560px;
+height: 212px;
+border-radius: 8px;
 }
 
 #name{
