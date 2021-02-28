@@ -188,6 +188,7 @@ background: linear-gradient(red,transparent)left repeat;
         color: white;
       }
 
+
 .grid {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
@@ -196,8 +197,70 @@ grid-gap: 20px;
 
 .game{
   position:relative;
-  text-align:center;
 }
+
+.grid-description {
+width: 280px;
+height: 69px;
+margin: 5px 81px 40px 30px;
+font-family: Poppins;
+font-size: 16px;
+text-align: center;
+color: #ffffff;
+}
+
+.grid-title {
+width: 280px;
+height: 32px;
+margin: 20px 81px 40px 20px;
+font-family: Poppins;
+font-size: 32px;
+font-weight: bold;
+line-height: 1;
+text-align: center;
+color: #fce700;
+}
+
+.grid-content {
+position: absolute;
+background-color: #231F20;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+opacity: 0;
+transition: opacity 300ms,
+}
+
+.grid-category {
+width: 117px;
+height: 20px;
+margin: 20px 81px 40px 100px;
+font-family: Poppins;
+font-size: 14px;
+text-align: center;
+color: #ffffff
+}
+
+.grid-title { 
+width: 280px;
+height: 32px;
+margin: 20px 81px 40px 20px;
+font-family: Poppins;
+font-size: 32px;
+font-weight: bold;
+line-height: 1;
+text-align: center;
+color: #fcda00;
+}
+
+.game:hover .grid-content {
+opacity:0;
+transform: translateY(10px);
+transition: 800ms transform ease-in-out, 200ms opacity;
+}
+
+
 
 .colonne1 {
 text-align: justify;
